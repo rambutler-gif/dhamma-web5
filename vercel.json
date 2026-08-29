@@ -1,0 +1,8 @@
+{
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "^/_expo/(.*)$", "dest": "/_expo/$1" },
+    { "src": "^/api/(.*)$", "dest": "/api/$1" },
+    { "src": "^/(.*)$", "dest": "/index.html" }
+  ]
+}
